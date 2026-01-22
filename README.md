@@ -38,7 +38,7 @@ A simple **Next.js** application that demonstrates task management, API integrat
 ### ⏳ Loading States
 
 - Skeleton table while fetching data
-- Loading indicators for async actions (delete / update)
+- Loading indicators for async actions (create / read / update / delete)
 
 ## 🛠️ Setup Instructions
 
@@ -72,6 +72,5 @@ npm run test:watch
 
 - localStorage is used instead of a backend for task persistence
 - Async actions are simulated using createAsyncThunk
-- JSONPlaceholder is a mock API, data resets on refresh
 - Client Components are used where browser APIs are required
 - Pagination helps keep the page concise by displaying data in smaller chunks instead of showing everything at once.
